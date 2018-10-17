@@ -18,10 +18,11 @@ int main()
             cout << "You have $" << money << endl;         
             cout << "How much would you like to bet?" << endl;
             cin >> bet;
-            money = money - bet;
+            
 
                 if ( bet <= money )
                 {
+                    money = money - bet;
                     cout << " To place a bet please choose 1 or 0" << endl;
                     cin >> user;
                     
